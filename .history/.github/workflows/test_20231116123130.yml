@@ -67,8 +67,6 @@ jobs:
           # rails 7 requires ruby >= 2.7.0
           - ruby: '2.6'
             gemfile: 'rails_7.0'
-          - ruby: '2.6'
-            gemfile: 'rails_7.1'
     steps:
       - name: Checkout source
         uses: actions/checkout@v2
